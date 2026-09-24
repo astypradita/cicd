@@ -7,6 +7,7 @@ on:
     paths:
       - 'skenario1-github-actions-vps-proxycommand/level2-nodejs-systemd/app/**'
   workflow_dispatch:
+  
     inputs:
       restart_only:
         description: 'Hanya restart service tanpa upload ulang file?'
